@@ -16,7 +16,7 @@ setInterval(() => {
   const minute = time.getMinutes().toString().padStart(2, "0");
   const sec = time.getSeconds().toString().padStart(2, "0");
   const hrs = hours % 12 || 12;
-  const PmAm = hrs <= 12 ? "PM" : "AM";
+  const PmAm = hrs >= 12 ? "PM" : "AM";
   time_now.style.color = "black";
   time_now.textContent = `${hrs} : ${minute} : ${sec} ${PmAm}`;
 

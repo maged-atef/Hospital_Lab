@@ -117,7 +117,7 @@ function register() {
       const result = StoredData.filter(
         (record) =>
           record[0].id === +(searchValue.value) ||
-          record[0].FullName === searchValue.value
+          record[0].FullName == searchValue.value
       );
       if (result.length === 0) {
         DataFill.innerHTML = `<tr><td colspan="5">لا يوجد مريض مسجل بتلك البيانات</td></tr>`;

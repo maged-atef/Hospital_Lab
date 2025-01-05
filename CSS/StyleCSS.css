@@ -40,6 +40,9 @@ body{
     .head .inner{
         padding: 0 0 ;
     }
+.tests input{
+text-align:left;
+}
     
     
 }

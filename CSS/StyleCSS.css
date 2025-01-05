@@ -125,7 +125,7 @@ text-align:left;
         /* background-color: green; */
         width: 100%;
     }
-    tests input{
+   .tests input{
 text-align:left;
 }
     
@@ -154,3 +154,7 @@ text-align:left;
 .search i { 
     padding-right: 2rem;
 }
+.tests input{
+text-align:left;
+}
+    
